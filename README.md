@@ -12,10 +12,10 @@ An Arma Reforger dedicated server. Updates to the latest version every time it i
         -p 2001:2001/udp \
         -v path/to/configs:/reforger/Configs \
         -v path/to/profiles:/home/profile \
-        -e SERVER_REGION="EU" \
-        -e SERVER_HOST_REGISTER_ADDRESS="public ip" \
+        -e SERVER_REGION="US" \
+        -e SERVER_HOST_REGISTER_ADDRESS="159.65.255.129" \
         -e GAME_NAME="My Docker Reforger Server" \
-        https://github.com/wilks1/arma-reforger-docker.git
+        wilks1/arma-reforger-docker
 ```
 
 If an admin password is not provided, one will be generated and printed to the console.
