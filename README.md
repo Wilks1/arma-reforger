@@ -15,7 +15,7 @@ An Arma Reforger dedicated server. Updates to the latest version every time it i
         -e SERVER_REGION="EU" \
         -e SERVER_HOST_REGISTER_ADDRESS="public ip" \
         -e GAME_NAME="My Docker Reforger Server" \
-        wilks1/arma-reforger-docker:edge
+        https://github.com/Wilks1/arma-reforger-docker.git
 ```
 
 If an admin password is not provided, one will be generated and printed to the console.
