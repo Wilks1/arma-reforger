@@ -11,6 +11,6 @@ services:
       - ./reforger/configs:/reforger/Configs
       - ./reforger/profile:/home/profile
     environment:
-      - SERVER_REGION=EU  # or other ISO 3166-1 alpha-2 code
-      - SERVER_HOST_REGISTER_ADDRESS=public-ip
-      - GAME_NAME=My Docker Reforger Server
+      - SERVER_REGION=US  # or other ISO 3166-1 alpha-2 code
+      - SERVER_HOST_REGISTER_ADDRESS=159.65.255.129
+      - GAME_NAME=JTF2 Public - Custom Operations - Game Master
